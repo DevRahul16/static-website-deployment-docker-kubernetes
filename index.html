@@ -1,28 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Static Website - Home</title>
-  <style>body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:40px auto;padding:0 20px}header{border-bottom:1px solid #eee;padding-bottom:10px;margin-bottom:20px}nav a{margin-right:12px;text-decoration:none;color:#0366d6}footer{margin-top:40px;color:#666;font-size:14px}</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chelsea FC | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #034694;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background: #012B73;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    img {
+      width: 250px;
+      margin-top: 60px;
+      filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.6));
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #012B73;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Static Website</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="membership.html">Membership</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Simple, Fast, Static</h2>
-    <p>This is a sample static website deployed using Nginx inside a Docker container and orchestrated with Kubernetes.</p>
-    <p>Use this repo to learn the Git → Docker → Kubernetes workflow.</p>
-  </main>
-  <footer>
-    <p>Author: Rahul Kumar</p>
-  </footer>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="membership.html">Membership</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea FC Logo">
+  <h1>Welcome to Chelsea Football Club</h1>
+  <p>The Pride of London since 1905.</p>
+
+  <footer>© 2025 Chelsea Football Club. All Rights Reserved.</footer>
 </body>
 </html>

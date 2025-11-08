@@ -43,6 +43,7 @@ static-website-deployment-docker-kubernetes/
 
 ### 1. Create and Push Website Files to GitHub
 ```bash
+git clone https://github.com/DevRahul16/static-website-deployment-docker-kubernetes.git
 git init
 git add .
 git commit -m "Initial static website commit"
